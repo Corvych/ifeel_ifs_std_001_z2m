@@ -24,11 +24,13 @@ const definition = {
     exposes: [
         e.humidity(),
         e.temperature(),
+        e.battery_low()
     ],
     meta: {
         tuyaDatapoints: [
             [2, 'humidity', tuya.valueConverter.raw],
             [1, 'temperature', tuya.valueConverter.divideBy10],
+            [9, 'battery_low', tuya.valueConverter.raw]
         ],
     },
 };
