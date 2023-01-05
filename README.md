@@ -9,7 +9,7 @@
 |Getting temperature|✅|
 |Getting humidity|✅|
 |Setting time|❌|
-|Low Battery alert|❌|
+|Low Battery alert|✅|
 ## How to make it work
 1. Download [ifeelplus_std_001.js](https://github.com/Corvych/ifeel_ifs_std_001_z2m/blob/stable/ifeelplus_std_001.js) external converter
 2. Bind device to your Zigbee network
